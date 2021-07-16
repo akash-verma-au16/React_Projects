@@ -1,0 +1,77 @@
+.projectIconsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 60px;
+  overflow: hidden;
+}
+
+.projectContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px 100px 80px;
+}
+
+.projectContainer > div:nth-of-type(even) {
+  margin-top: 60px;
+}
+
+.projectContainer > div:nth-of-type(2) button {
+  float: right;
+  margin-right: 50px;
+}
+
+.projectBox {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background: #f3f3f3;
+  box-shadow: -20px -20px 50px #ffffff, 20px 20px 50px #d2d2d2;
+  border-radius: 33px;
+  margin: 0px auto;
+  padding: 30px 10px;
+}
+
+.checkProfileBtn {
+  margin-top: 42px;
+  height: 65px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background: #f9f9f9;
+  color: #12b7b6;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  font-size: 12px;
+  font-family: MontserratBold;
+  position: relative;
+  padding: 0px 0px 0px 30px;
+}
+
+.checkProfileCircleBtn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  background: #f9f9f9;
+  box-shadow: inset -10px -10px 20px #ffffff,
+    inset 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  right: 0px;
+  font-size: 30px;
+}
+div.bannerContainer {
+  position: relative;
+  text-align: center;
+}
+
+div.bannerText {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  width: 700px;
+  color: black;
+}

@@ -1,0 +1,85 @@
+.propertyContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px 100px 80px;
+}
+
+.propertyContainer > div:nth-of-type(even) {
+  margin-top: 60px;
+}
+
+.propertyBox {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background: #f3f3f3;
+  box-shadow: -20px -20px 50px #ffffff, 20px 20px 50px #d2d2d2;
+  border-radius: 33px;
+  margin: 0px auto;
+  padding: 30px 10px;
+}
+
+.propertyImg {
+  margin-left: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.checkPropertyBtn {
+  margin-top: 20px;
+  height: 55px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background: #f9f9f9;
+  color: #12b7b6;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  font-size: 12px;
+  font-family: MontserratBold;
+  position: relative;
+  padding: 0px 0px 0px 30px;
+}
+
+.checkPropertyCircleBtn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+  background: #f9f9f9;
+  box-shadow: inset -10px -10px 20px #ffffff,
+    inset 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  right: 0px;
+  font-size: 30px;
+}
+
+.BHKToggle {
+  display: flex;
+}
+
+.toggleElement {
+  border: 2px solid #333;
+  border-radius: 20px;
+  margin: 10px 0;
+  margin-right: 20px;
+  padding: 3px 7px;
+  font-size: 14px;
+  cursor: pointer;
+}
+div.bannerContainer {
+  position: relative;
+  text-align: center;
+}
+
+div.bannerText {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  width: 700px;
+  color: black;
+}
